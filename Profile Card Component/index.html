@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body class="font-kumbh-sans bg-Dark-cyan overflow-hidden">
+
+  <div class="w-screen h-screen relative flex items-center justify-center">
+    <!-- Top background pattern -->
+    <img src="images/bg-pattern-top.svg"
+      class="media absolute top-0 left-0 w-8/12  transform -translate-y-1/2 -translate-x-1/2" alt="">
+
+    <!-- Bottom background pattern -->
+    <img src="images/bg-pattern-bottom.svg"
+      class="media absolute bottom-0 right-0 w-8/12 transform translate-y-1/2 translate-x-1/2" alt="">
+
+    <div class="w-80 bg-white rounded-lg shadow-xl relative z-10 m-4">
+      <!-- Profile card header -->
+      <div class="h-28 bg-cover bg-center rounded-t-lg" style="background-image: url('images/bg-pattern-card.svg');">
+      </div>
+
+      <!-- Profile picture -->
+      <img src="images/image-victor.jpg"
+        class="rounded-full border-4 border-white w-24 h-24 absolute top-20 left-1/2 transform -translate-x-1/2"
+        alt="Victor Crest">
+
+      <!-- Profile information -->
+      <div class="mt-16 text-center">
+        <h1 class="text-lg font-bold">Victor Crest <span class="text-gray-600 font-normal">26</span></h1>
+        <p class="text-gray-600 text-sm">London</p>
+      </div>
+
+      <hr class="mt-6">
+
+      <!-- Profile statistics -->
+      <div class="flex justify-around mt-4 py-4">
+        <div class="text-center">
+          <h1 class="font-semibold text-lg">80K</h1>
+          <span class="text-xs text-gray-600 font-medium tracking-widest">Followers</span>
+        </div>
+        <div class="text-center">
+          <h1 class="font-semibold text-lg">803K</h1>
+          <span class="text-xs text-gray-600 font-medium tracking-widest">Likes</span>
+        </div>
+        <div class="text-center">
+          <h1 class="font-semibold text-lg">1.4K</h1>
+          <span class="text-xs text-gray-600 font-medium tracking-widest">Photos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

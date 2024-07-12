@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.media{
+  transition: width 0.3s ease; 
+}
+@media (max-width: 375px) {
+  .media {
+    width: 90%;
+    /* Increase size when screen width is less than 375px */
+  }
+}
